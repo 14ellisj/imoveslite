@@ -7,4 +7,9 @@ $sql = "CREATE TABLE IF NOT EXISTS `accounts` (
   	`email` varchar(100) NOT NULL,
     PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=utf8;";
+if ($mysqli->query($sql) === TRUE) {
+	echo "Table MyGuests created successfully";
+  } else {
+	echo "Error creating table: " . $mysqli->error;
+  }
 ?>
