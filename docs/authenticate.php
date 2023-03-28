@@ -3,7 +3,7 @@ session_start();
 $hostname = 'imoves.mysql.database.azure.com';
 $username = 'admin1';
 $password = 'BOBicus1';
-$basabase = 'pick-l';
+$database = 'pick-l';
 $con = mysqli_connect($hostname, $username, $password, $database);
 if ( mysqli_connect_errno() ) {
 	exit('Failed to connect to MySQL: ' . mysqli_connect_error());
