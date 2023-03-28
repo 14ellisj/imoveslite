@@ -1,14 +1,15 @@
 <?php
+ini_set("display_error",1);
 session_start();
 // $hostname = 'imoves.mysql.database.azure.com';
 // $username = 'admin1';
 // $password = 'BOBicus1';
 // $database = 'pick-l';
-// $con = mysqli_connect($hostname, $username, $password, $database);
-// if ( mysqli_connect_errno() ) {
-// 	exit('Failed to connect to MySQL: ' . mysqli_connect_error());
-// }
-include("config.php");
+$con = mysqli_connect($hostname, $username, $password, $database);
+if ( mysqli_connect_errno() ) {
+	exit('Failed to connect to MySQL: ' . mysqli_connect_error());
+}
+// include("config.php");
 if ( !isset($_POST['username'], $_POST['password']) ) {
 	exit('Please fill both the username and password fields!');
 }
