@@ -1,17 +1,18 @@
 <?php
 session_start();
-$hostname = 'imoves.mysql.database.azure.com';
-$username = 'admin1';
-$password = 'BOBicus1';
-$database = 'pick-l';
-$con = mysqli_connect($hostname, $username, $password, $database);
-if ( mysqli_connect_errno() ) {
-	exit('Failed to connect to MySQL: ' . mysqli_connect_error());
-}
+// $hostname = 'imoves.mysql.database.azure.com';
+// $username = 'admin1';
+// $password = 'BOBicus1';
+// $database = 'pick-l';
+// $con = mysqli_connect($hostname, $username, $password, $database);
+// if ( mysqli_connect_errno() ) {
+// 	exit('Failed to connect to MySQL: ' . mysqli_connect_error());
+// }
+include("config.php");
 if ( !isset($_POST['username'], $_POST['password']) ) {
 	exit('Please fill both the username and password fields!');
 }
-if ($stmt = $con->prepare('SELECT id, password FROM accounts WHERE username = ?')) {
+if ($stmt = $mysqli->prepare('SELECT id, password FROM accounts WHERE username = ?')) {
 	$stmt->bind_param('s', $_POST['username']);
 	$stmt->execute();
 	$stmt->store_result();

@@ -1,5 +1,5 @@
 <?php
-require_once("PHPLOGIN/authenticate.php");
+include("config.php");
 $sql = "CREATE TABLE IF NOT EXISTS `accounts` (
 	`id` int(11) NOT NULL AUTO_INCREMENT,
   	`username` varchar(50) NOT NULL,
