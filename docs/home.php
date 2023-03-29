@@ -24,9 +24,10 @@ if (!isset($_SESSION['loggedin'])) {
         </div>
 
         <div class="headBar">
-            <div class="cameraIndex"><a href="camera.html"><i class="fa fa-camera" alt="Camera Icon" class="cameraIcon" style="color: #a4a7ff"></i></a></div></td>
-            <div class="logoIndex"><img src="images/pick-lLogo.png" alt="Logo Image" class="logo"></a></div></td>
-            <div class="pickleIndex"><a href="profiles.html"><img src="images/pickle.jpg" alt="Pickle Image" class="pickleImageI"></a></div></td>
+            <div class="cameraIndex"><a href="camera.html"><i class="fa fa-camera" alt="Camera Icon" class="cameraIcon" style="color: #a4a7ff"></i></a></div>
+            <div class="logoIndex"><img src="images/pick-lLogo.png" alt="Logo Image" class="logo"></a></div>
+            <div class="pickleIndex"><a href="profiles.html"><img src="images/pickle.jpg" alt="Pickle Image" class="pickleImageI"></a></div>
+            <div class="welMess"><p>Hello, <?=$_SESSION['name']?>!</p></div>
         </div>
 
         <div class="section"><video width="100%" controls poster="images/Poster2.PNG">
@@ -106,6 +107,8 @@ if (!isset($_SESSION['loggedin'])) {
             Your browser does not support the video tag.
             </video>
         </div>
+
+        
     </div>
 </body>
 </html> 

@@ -14,7 +14,7 @@ body {
   position: absolute;
   left: 57%;
   transform: translate(-50%, -50%);
-  top: 6%;
+  top: 4%;
 }
 .cameraIndex{
   position: absolute;
@@ -282,4 +282,14 @@ margin: 5%;
   display: flex;
   align-items: center; 
   padding-left: 10px;
+}
+.welMess{
+  position: absolute;
+  top: 5%;
+  left: 40%;
+  right: 40%;
+}
+.doneMess{
+  left: 40%;
+  right: 40%;
 }
