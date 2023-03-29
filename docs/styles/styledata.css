@@ -72,15 +72,15 @@ body {
     transition: background-color 0.2s;
 }
 .navtop {
-	background-color: #2f3947;
-	height: 60px;
+	background-color: #a4a7ff;
+	height: 120px;
 	width: 100%;
 	border: 0;
 }
 .navtop div {
 	display: flex;
 	margin: 0 auto;
-	width: 1000px;
+	width: 100%;
 	height: 100%;
 }
 .navtop div h1, .navtop div a {
@@ -109,6 +109,7 @@ body {
 }
 body.loggedin {
 	background-color: #ebebff;
+    font-size: 200%;
 }
 .content {
 	width: 90%;
@@ -144,4 +145,16 @@ body.loggedin {
     background-color: transparent;
     margin-left: 40%;
     margin-top: 10px;
-    }
+}
+.logoutButton{
+    padding-top: 8%;
+    font-size: 60%;
+}
+.logo{
+    height: 100%;
+}
+.headBar{
+    display: flex;
+    align-items: center; 
+    padding-left: 10px;
+}

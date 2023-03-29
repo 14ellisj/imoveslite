@@ -8,13 +8,13 @@
 	</head>
 	<body class="loggedin">
 		<nav class="navtop">
-			<div>
-				<img src="images/pick-lLogo.png" alt="Logo Image" class="logo0">
-				<a href="logout.php"><i class="fas fa-sign-out-alt"></i>Logout</a>
+			<div class="headBar">
+				<div class="logoIndex"><img src="images/pick-lLogo.png" alt="Logo Image" class="logo"></div>
 			</div>
 		</nav>
 		<div class="content">
 			<div>
+				<p>Hello, <?=$_SESSION['name']?>!</p>
 				<p>Your account details are below:</p>
 				<table>
 					<tr>
@@ -23,11 +23,14 @@
 					</tr>
 					<tr>
 						<td>Password:</td>
-						<td><?=$_SESSION['password']?></td>
+						<td><?=$password?></td>
 					</tr>
 					<tr>
 						<td>Email:</td>
-						<td><?=$_SESSION['email']?></td>
+						<td><?=$email?></td>
+					</tr>
+					<tr>
+						<td><div class="logoutButton"><a href="logout.php" style="color:#a5a8ff"><i class="fas fa-sign-out-alt" style="color:#a5a8ff"></i>Logout</a></div></td>
 					</tr>
 				</table>
 			</div>
