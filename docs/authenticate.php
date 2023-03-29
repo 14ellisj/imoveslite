@@ -29,7 +29,7 @@ if ($stmt = $mysqli->prepare('SELECT id, password, email FROM accounts WHERE use
             $_SESSION['password'] = $password;
             $_SESSION['email'] = $email;
 
-            header('Location: home.php');
+            header('Location: profiles.php');
         } else {
             echo 'Incorrect username and/or password!';
         }
