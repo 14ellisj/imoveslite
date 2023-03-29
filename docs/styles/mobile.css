@@ -18,21 +18,23 @@ body {
 }
 .cameraIndex{
   position: absolute;
-  top: 6%;
-  left: 6%;
+  top: 2%;
+  left: 9%;
+  font-size: 300%;
+  color: #a5a8ff;
 }
 .pickleIndex{
   position: absolute;
-  top: 6%;
-  left: 90%;
+  top: 2%;
+  left: 80%;
+  right: 10%;
 }
 .pickleImageI{
-  height: 10%;
-  width: 60%;
+  width: 100%;
 }
 .cameraIcon{
-  height: 10%;
-  width: 60%;
+  font-size: 30%;
+  color: #a5a8ff;
 }
 header {
   font-family: helvetica, arial, sans-serif;
@@ -275,4 +277,9 @@ margin-right: 10%;
 }
 .signUpIntro{
 margin: 5%;
+}
+.headBar{
+  display: flex;
+  align-items: center; 
+  padding-left: 10px;
 }
