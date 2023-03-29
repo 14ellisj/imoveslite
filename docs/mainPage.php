@@ -12,23 +12,23 @@ if (!isset($_SESSION['loggedin'])) {
     <meta name="viewport" content="width=device-width"/>
     <title>iMoves: Home</title>
     <link rel="stylesheet" href="styles/mobile.css"/>
-    <link rel="stylesheet" href="styles/desktop.css" media="only screen and (min-width : 720px)"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">\
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body class="indexBody">
-    <div class="container"> 
+
+    <div class="headBar">
+        <div class="cameraIndex"><a href="camera.html"><i class="fa fa-camera" alt="Camera Icon" class="cameraIcon" style="color: #a4a7ff"></i></a></div></td>
+        <div class="logoIndex"><img src="images/pick-lLogo.png" alt="Logo Image" class="logo"></a></div></td>
+        <div class="pickleIndex"><a href="con.html"><img src="images/pickle.jpg" alt="Pickle Image" class="pickleImageI"></a></div></td>
+        <a href="profile.php"><i class="fas fa-user-circle"></i>Profile</a>
+    </div>
+
+    <div class="container">
         <div class="section"><video width="100%" controls poster="images/Poster1.PNG">
             <source src="videos/FBB-2.mp4" type="video/mp4" class="videos"> 
             Your browser does not support the video tag.
             </video>
-        </div>
-        <div class="headBar">
-            <table>
-                <tr>
-                    <td><div class="logoIndex"><a href="camera.html"><img src="images/cameraIcon.jpg" alt="Camera Icon" class="cameraIcon"></a></div></td>
-                    <td><div class="logoIndex"><img src="images/pick-lLogo.png" alt="Logo Image" class="logo"></a></div></td>
-                    <td><div class="pickleIndex"><a href="con.html"><img src="images/pickle.jpg" alt="Pickle Image" class="pickleImageI"></a></div></td>
-                </tr>
-            </table>
         </div>
 
         <div class="section"><video width="100%" controls poster="images/Poster2.PNG">

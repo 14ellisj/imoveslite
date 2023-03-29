@@ -4,6 +4,11 @@ if (!isset($_SESSION['loggedin'])) {
 	header('Location: index.html');
 	exit;
 }
+/* session_start();
+if (!isset($_SESSION['loggedin'])) {
+	header('Location: index.html');
+	exit;
+}
 $DATABASE_HOST = 'localhost:4306';
 $DATABASE_USER = 'root';
 $DATABASE_PASS = '';
@@ -17,14 +22,14 @@ $stmt->bind_param('i', $_SESSION['id']);
 $stmt->execute();
 $stmt->bind_result($password, $email);
 $stmt->fetch();
-$stmt->close();
+$stmt->close(); */
 ?>
 <!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
 		<title>Profile Page</title>
-		<link href="styledata.css" rel="stylesheet" type="text/css">
+		<link href="styles/styledata.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
 	</head>
 	<body class="loggedin">
