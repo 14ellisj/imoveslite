@@ -16,7 +16,6 @@ if (!isset($_SESSION['loggedin'])) {
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
 </head>
 <body class="indexBody">
-
     <div class="headBar">
         <div class="cameraIndex"><a href="camera.html"><i class="fa fa-camera" alt="Camera Icon" class="cameraIcon" style="color: #a4a7ff"></i></a></div></td>
         <div class="logoIndex"><img src="images/pick-lLogo.png" alt="Logo Image" class="logo"></a></div></td>
