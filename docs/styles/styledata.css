@@ -108,10 +108,10 @@ body {
 	color: #eaebed;
 }
 body.loggedin {
-	background-color: #f3f4f7;
+	background-color: #ebebff;
 }
 .content {
-	width: 1000px;
+	width: 90%;
 	margin: 0 auto;
 }
 .content h2 {
