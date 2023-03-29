@@ -13,12 +13,12 @@ include("config.php");
 if ( !isset($_POST['username'], $_POST['password']) ) {
 	exit('Please fill both the username and password fields!');
 }
-if ($stmt = $mysqli->prepare('SELECT id, password FROM accounts WHERE username = ?')) {
+if ($stmt = $mysqli->prepare('SELECT id, password, email FROM accounts WHERE username = ?')) {
 	$stmt->bind_param('s', $_POST['username']);
 	$stmt->execute();
 	$stmt->store_result();
     if ($stmt->num_rows > 0) {
-        $stmt->bind_result($id, $password);
+        $stmt->bind_result($id, $password, $email);
         $stmt->fetch();
         // if (password_verify($_POST['password'], $password)) {
             if($_POST['password'] == $password) {
@@ -26,6 +26,9 @@ if ($stmt = $mysqli->prepare('SELECT id, password FROM accounts WHERE username =
             $_SESSION['loggedin'] = TRUE;
             $_SESSION['name'] = $_POST['username'];
             $_SESSION['id'] = $id;
+            $_SESSION['passowrd'] = $password;
+            $_SESSION['email'] = $email;
+
             header('Location: mainPage.php');
         } else {
             echo 'Incorrect username and/or password!';

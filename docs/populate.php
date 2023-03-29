@@ -7,11 +7,43 @@ include("config.php");
 //   } else {
 // 	echo "Error creating table: " . $mysqli->error;
 //   }
-$sql = "INSERT INTO `accounts` (`id`, `username`, `password`, `email`) VALUES 
+/* $sql = "INSERT INTO `accounts` (`id`, `username`, `password`, `email`) VALUES 
 (2, 'test2', 'test2', 'test2@test.com');";
 if ($mysqli->query($sql) === TRUE) {
 	echo "Table MyGuests created successfully";
   } else {
 	echo "Error creating table: " . $mysqli->error;
   }
+ */
+$sql = "INSERT INTO `accounts` (`id`, `username`, `password`, `email`) VALUES 
+(3, 'Ollie', 'lip31', 'ollie@pickl.com');";
+if ($mysqli->query($sql) === TRUE) {
+	echo "user 3 created successfully";
+  } else {
+	echo "Error creating user 3: " . $mysqli->error;
+}
+
+$sql = "INSERT INTO `accounts` (`id`, `username`, `password`, `email`) VALUES 
+(4, 'test2', 'test2', 'test2@test.com');";
+if ($mysqli->query($sql) === TRUE) {
+	echo "user 4 created successfully";
+  } else {
+	echo "Error creating user 4: " . $mysqli->error;
+}
+
+$sql = "INSERT INTO `accounts` (`id`, `username`, `password`, `email`) VALUES 
+(5, 'test2', 'test2', 'test2@test.com');";
+if ($mysqli->query($sql) === TRUE) {
+	echo "user 5 created successfully";
+  } else {
+	echo "Error creating user 5: " . $mysqli->error;
+}
+
+$sql = "INSERT INTO `accounts` (`id`, `username`, `password`, `email`) VALUES 
+(6, 'test2', 'test2', 'test2@test.com');";
+if ($mysqli->query($sql) === TRUE) {
+	echo "user 6 created successfully";
+  } else {
+	echo "Error creating user 6: " . $mysqli->error;
+}
 ?>

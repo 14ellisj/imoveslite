@@ -49,11 +49,11 @@ $stmt->close(); */
 					</tr>
 					<tr>
 						<td>Password:</td>
-						<td><?=$password?></td>
+						<td><?=$_SESSION['password']?></td>
 					</tr>
 					<tr>
 						<td>Email:</td>
-						<td><?=$email?></td>
+						<td><?=$_SESSION['email']?></td>
 					</tr>
 					<tr>
 						<td><div class="logoutButton"><a href="logout.php" style="color:#a5a8ff"><i class="fas fa-sign-out-alt" style="color:#a5a8ff"></i>Logout</a></div></td>
