@@ -64,7 +64,7 @@ $stmt->close(); */
 		</div>
 
     <div>
-        <a href="profiles.php"><button class="backButton"> ← Back </button></a>
+        <a href="profiles.html"><button class="backButton"> ← Back </button></a>
     </div>
 
 	</body>
