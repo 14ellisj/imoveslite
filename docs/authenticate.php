@@ -26,7 +26,7 @@ if ($stmt = $mysqli->prepare('SELECT id, password, email FROM accounts WHERE use
             $_SESSION['loggedin'] = TRUE;
             $_SESSION['name'] = $_POST['username'];
             $_SESSION['id'] = $id;
-            $_SESSION['passowrd'] = $password;
+            $_SESSION['password'] = $password;
             $_SESSION['email'] = $email;
 
             header('Location: mainPage.php');
