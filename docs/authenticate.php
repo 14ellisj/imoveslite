@@ -26,6 +26,8 @@ if ($stmt = $mysqli->prepare('SELECT id, password FROM accounts WHERE username =
             $_SESSION['loggedin'] = TRUE;
             $_SESSION['name'] = $_POST['username'];
             $_SESSION['id'] = $id;
+            $_SESSION['password'] = $_POST['password'];
+            $_SESSION['email'] = $_POST['email']
             header('Location: mainPage.php');
         } else {
             echo 'Incorrect username and/or password!';
