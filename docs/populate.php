@@ -24,7 +24,7 @@ if ($mysqli->query($sql) === TRUE) {
 }
 
 $sql = "INSERT INTO `accounts` (`id`, `username`, `password`, `email`) VALUES 
-(4, 'test2', 'test2', 'test2@test.com');";
+(4, 'Erica', 'bigcheeze7', 'erica@pickl.com');";
 if ($mysqli->query($sql) === TRUE) {
 	echo "user 4 created successfully";
   } else {
@@ -32,7 +32,7 @@ if ($mysqli->query($sql) === TRUE) {
 }
 
 $sql = "INSERT INTO `accounts` (`id`, `username`, `password`, `email`) VALUES 
-(5, 'test2', 'test2', 'test2@test.com');";
+(5, 'Jake', 'eggs96', 'jake@pickl.com');";
 if ($mysqli->query($sql) === TRUE) {
 	echo "user 5 created successfully";
   } else {
@@ -40,7 +40,7 @@ if ($mysqli->query($sql) === TRUE) {
 }
 
 $sql = "INSERT INTO `accounts` (`id`, `username`, `password`, `email`) VALUES 
-(6, 'test2', 'test2', 'test2@test.com');";
+(6, 'Ian', 'pickle57', 'ian@pickl.com');";
 if ($mysqli->query($sql) === TRUE) {
 	echo "user 6 created successfully";
   } else {
