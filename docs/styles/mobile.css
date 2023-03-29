@@ -1,7 +1,7 @@
 body {
   font-family: helvetica, arial, sans-serif;
   font-size: 1em;
-  background-color: #a4a7ff;
+  background-color: #ebebff;
   color: #ffffff;
   margin: 0px;
   height: 90%;
@@ -95,6 +95,7 @@ table{
   height: 100vh;
   scroll-snap-align: start;
   scroll-snap-stop: always;
+  background-color: #ebebff;
 }
 h1{
   text-align: center;
@@ -295,4 +296,13 @@ margin: 5%;
   left: 40%;
   right: 40%;
   color: #555;
+  font-size: 200%;
+  text-align: center;
+}
+.section1{
+  left: 40%;
+  right: 40%;
+  height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
 }
