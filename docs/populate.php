@@ -15,7 +15,7 @@ if ($mysqli->query($sql) === TRUE) {
 	echo "Error creating table: " . $mysqli->error;
   }
  */
-$sql = "INSERT INTO `accounts` (`id`, `username`, `password`, `email`) VALUES 
+/* $sql = "INSERT INTO `accounts` (`id`, `username`, `password`, `email`) VALUES 
 (3, 'Ollie', 'lip31', 'ollie@pickl.com');";
 if ($mysqli->query($sql) === TRUE) {
 	echo "user 3 created successfully";
@@ -45,5 +45,5 @@ if ($mysqli->query($sql) === TRUE) {
 	echo "user 6 created successfully";
   } else {
 	echo "Error creating user 6: " . $mysqli->error;
-}
+} */
 ?>
