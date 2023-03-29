@@ -1,158 +1,228 @@
 body {
-    font-family: helvetica, arial, sans-serif;
-    font-size: 1em;
-    padding: 3%;
-    background-color: #ebebff;
-    color: #a4a7ff;
-  }
-  header {
-    font-family: helvetica, arial, sans-serif;
-    position: sticky;
-    left: 0;
-    top: 0;
-    width: 100%;
-    display: block;
-    height: auto;
-    margin: auto;
-    margin-top: -20px;
-  }
-  .logo {
-    display: block;
-    margin-left: 0;
-    width: 70px;
-    height: 70px;
+  font-family: helvetica, arial, sans-serif;
+  font-size: 1em;
+  padding: 3%;
+  background-color: #ebebff;
+  color: #a4a7ff;
+}
+header {
+  font-family: helvetica, arial, sans-serif;
+  position: sticky;
+  left: 0;
+  top: 0;
+  width: 100%;
+  display: block;
+  height: auto;
+  margin: auto;
+  margin-top: -20px;
+}
+.logo {
+  position: fixed;
+  left: 35%;
+  bottom: 87%;
+  width: 100px;
+  height: 15%;
 
-  }
-  .favouritesLogo {
-    display: block;
-    margin-right: 0;
-    width: 70px;
-  }
-  .vidEx {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
-  }
-  .nextReward {
-    display: block;
-    margin-right: 0;
-    width: 70px;
-    height: 70px;
-    position: relative;
-  }
-  .barPlace {
-    display: block;
-    margin-right: 0;
-    width: 120px;
-    position: relative;
-  }
-  .profileImg {
-    display: block;
-    margin-right: 0;
-    width: 40px;
-    position: relative;
-  }
-  .navBar{
-    width:100%;
-  }
-  table{
-    width: 100%;
-    background-color: #ebebff;
-  }
-  .videos{
-    width: 90%;
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-  .container{
-    height: 100vh;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
-    margin-top: 18%;
-    margin-right: 5%;
-  }
+}
+.favouritesLogo {
+  display: block;
+  margin-right: 0;
+  width: 70px;
+}
+.vidEx {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.nextReward {
+  display: block;
+  margin-right: 0;
+  width: 70px;
+  height: 70px;
+  position: relative;
+}
+.barPlace {
+  display: block;
+  margin-right: 0;
+  width: 120px;
+  position: relative;
+}
+.profileImg {
+  display: block;
+  margin-right: 0;
+  width: 40px;
+  position: relative;
+}
+.navBar{
+  width:100%;
+}
+table{
+  width: 100%;
+  background-color: #ebebff;
+}
+.videos{
+  width: 90%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.container{
+  height: 100vh;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  margin-top: 18%;
+  margin-right: 5%;
+}
 
-  .section{
-    height: 100vh;
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
-  }
-  h1{
-    text-align: center;
-    margin: 0;
-  }
-  h3{
-    text-align: center;
-  }
-  .tryButton{
-    padding-left: auto;
-    padding-right: auto;
-  }
-  .likeButton{
-    display: block;
-    margin-right: 0;
-    width: 50px;
-  }
-  .saveButton{
-    display: block;
-    margin-right: 0;
-    width: 50px;
-  }
-  footer{
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-  }
-  .center {
-    display: block;
-    margin-top: 60px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    max-width: 200px;
+.section{
+  height: 100vh;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+h1{
+  text-align: center;
+  margin: 0;
+}
+h3{
+  text-align: center;
+}
+.tryButton{
+  padding-left: auto;
+  padding-right: auto;
+}
+.likeButton{
+  display: block;
+  margin-right: 0;
+  width: 50px;
+}
+.saveButton{
+  display: block;
+  margin-right: 0;
+  width: 50px;
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+.center {
+  display: block;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 200px;
 }
 .responsive {
-  display: block;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  height: auto;
+display: block;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+height: auto;
 }
 .left {
-  margin-top: 40px;
-  margin-bottom: 20px;
-  display: block;
-  margin-left: auto;
-  margin-right: 20%;
-  background-color: #a4a7ff;
-  padding: 3%;
-  border-radius: 20%;
+margin-top: 40px;
+margin-bottom: 20px;
+display: block;
+margin-left: auto;
+margin-right: 20%;
+background-color: #a4a7ff;
+padding: 3%;
 }
 .right {
-  margin-top: 40px;
-  margin-bottom: 20px;
-  display: block;
-  margin-left: 20%;
-  margin-right: auto;
-  background-color: #a4a7ff;
-  padding: 3%;
-  border-radius: 20%;
+margin-top: 40px;
+margin-bottom: 20px;
+display: block;
+margin-left: 20%;
+margin-right: auto;
+background-color: #a4a7ff;
+padding: 3%;
 }
 .btn{
-  display: inline-block; 
-  margin-right: 20px;
+display: inline-block; 
+margin-right: 20px;
 }
 
 .ltext
 {
-  display: block;
-  margin-left: 20px;
-  margin-right: 20%;
+display: block;
+margin-left: 20px;
+margin-right: 20%;
 }
 .rtext {
-  display: block;
-  margin-left: 60%;
-  margin-right: 20px;
+display: block;
+margin-left: 60%;
+margin-right: 20px;
 }
+
+.bottom
+{
+position: fixed;
+display:block;
+top: 181px;
+left: 60px;
+}
+
+.b2
+{
+position: relative;
+margin-top: 40px;
+}
+
+.l2
+{
+position: relative;
+margin-top: 4%;
+margin-left: 4%;
+display: inline-block;
+}
+
+.cen
+{
+position: relative;
+margin-top: 4%;
+display: inline-block;
+margin-left: 6%; 
+}
+
+.r2
+{
+position: relative;
+top: 4%;
+display: inline-block;
+margin-left: 6%;
+
+}
+
+.subbutton
+{
+position: fixed;
+margin-top: 5%;
+left: 9%;
+width: 60px;
+height: 40px;
+
+}
+
+.pickle
+{
+position: fixed;
+left: 7%;
+top: 0.5%;
+
+}
+
+.cntText
+{
+position: relative;
+bottom: 275px;
+font-family: 'Bubblegum Sans'; font-size: 22px;
+}
+
+img.rounded-corners
+{
+border-radius: 30px;
+}
+
+.button1 {border-radius: 12px;}

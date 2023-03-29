@@ -13,6 +13,7 @@ if (!isset($_SESSION['loggedin'])) {
     <title>Pick-l: Home</title>
     <link rel="stylesheet" href="styles/mobile.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="icon" type="image/x-icon" href="images/pickle.ico">
 </head>
 <body class="indexBody">
@@ -26,7 +27,7 @@ if (!isset($_SESSION['loggedin'])) {
         <div class="headBar">
             <div class="cameraIndex"><a href="camera1.html"><i class="fa fa-camera" alt="Camera Icon" class="cameraIcon" style="color: #a4a7ff"></i></a></div>
             <div class="logoIndex"><img src="images/logo4a4.png" alt="Logo Image" class="logo"></a></div>
-            <div class="pickleIndex"><a href="avatarCustomise.html"><img src="images/pickle.jpg" alt="Pickle Image" class="pickleImageI"></a></div>
+            <div class="pickleIndex"><a href="avatarCustomise.html"><i class="fas fa-user-circle"  style="color:#a5a8ff" alt="Pickle Image" class="pickleImageI"></i></a></div>
             <div class="welMess"><p>Hello, <?=$_SESSION['name']?>!</p></div>
         </div>
 
