@@ -10,14 +10,14 @@ if (!isset($_SESSION['loggedin'])) {
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>iMoves</title>
+    <title>Pick-l: Profiles</title>
     <link rel="stylesheet" href="styles/oliverMobile.css" />
 </head>
 <header>
  
     <table style>
         <tr>
-            <img src="images/pick-lLogoBL.jpg" alt="Profilelogo" class="center" width = "200" style="border-radius: 12%;">
+            <img src="images/logo4a4.png" alt="Profilelogo" class="center" width = "200" style="border-radius: 12%;">
         </tr>
         <br>
         
