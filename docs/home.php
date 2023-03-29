@@ -108,6 +108,12 @@ if (!isset($_SESSION['loggedin'])) {
             </video>
         </div>
 
+        <div class="section">
+            <div class="doneMess">
+                <p>Great job!</p>
+                <p>Come back later for more!</p>
+            </div>
+        </div>
         
     </div>
 </body>
