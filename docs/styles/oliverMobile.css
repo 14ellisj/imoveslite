@@ -128,6 +128,7 @@ body {
   margin-right: 20%;
   background-color: #a4a7ff;
   padding: 3%;
+  border-radius: 20%;
 }
 .right {
   margin-top: 40px;
@@ -137,6 +138,7 @@ body {
   margin-right: auto;
   background-color: #a4a7ff;
   padding: 3%;
+  border-radius: 20%;
 }
 .btn{
   display: inline-block; 
