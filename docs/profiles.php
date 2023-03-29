@@ -28,16 +28,16 @@ if (!isset($_SESSION['loggedin'])) {
     <form>
     <table>
     <tr>
-    <td><button type="submit" formaction="home.html" class="left button1"> <img src = "images/barry.png" width = "100" height="100"> </button></td>
-    <td><button type="submit" formaction="home.html" class="right button1"> <img src = "images/barry bee orng.png" width = "100" height="100"> </button></td>
+    <td><button type="submit" formaction="home.php" class="left button1"> <img src = "images/barry.png" width = "100" height="100"> </button></td>
+    <td><button type="submit" formaction="home.php" class="right button1"> <img src = "images/barry bee orng.png" width = "100" height="100"> </button></td>
     </tr>
     <tr> 
 
     </tr>
 
     <tr>
-        <td><button type="submit" formaction="home.html" class="left button1" > <img src = "images/PinkP.png" width = "100" height="100"> </button></td>
-        <td><button type="submit" formaction="home.html" class="right button1"> <img src = "images/YellowP.png" width = "100" height="100"> </button></td>
+        <td><button type="submit" formaction="home.php" class="left button1" > <img src = "images/PinkP.png" width = "100" height="100"> </button></td>
+        <td><button type="submit" formaction="home.php" class="right button1"> <img src = "images/YellowP.png" width = "100" height="100"> </button></td>
     </tr>
 
     <tr>
