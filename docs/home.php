@@ -108,10 +108,11 @@ if (!isset($_SESSION['loggedin'])) {
             </video>
         </div>
 
-        <div class="section">
+        <div class="section1">
             <div class="doneMess">
                 <p>Great job!</p>
                 <p>Come back later for more!</p>
+                <p><div class="logoutButton"><a href="logout.php" style="color:#a5a8ff"><i class="fas fa-sign-out-alt" style="color:#a5a8ff"></i>Logout</a></div></p>
             </div>
         </div>
 
