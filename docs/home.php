@@ -114,7 +114,7 @@ if (!isset($_SESSION['loggedin'])) {
                 <p>Come back later for more!</p>
             </div>
         </div>
-        
+
     </div>
 </body>
 </html> 
