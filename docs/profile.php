@@ -36,7 +36,7 @@ $stmt->close(); */
 	<body class="loggedin">
 		<nav class="navtop">
 			<div class="headBar">
-				<div class="logoIndex"><img src="images/pick-lLogo.png" alt="Logo Image" class="logo"></div>
+				<div class="logoIndex"><img src="images/logo4a4.png" alt="Logo Image" class="logo"></div>
 			</div>
 		</nav>
 		<div class="content">
