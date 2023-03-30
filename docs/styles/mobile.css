@@ -288,6 +288,7 @@ margin: 5%;
   display: flex;
   align-items: center; 
   padding-left: 10px;
+  background-color: #ebebff;
 }
 .welMess{
   position: absolute;
