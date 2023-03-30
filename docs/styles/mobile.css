@@ -28,9 +28,11 @@ body {
   top: 2%;
   left: 80%;
   right: 10%;
+  font-size: 300%;
 }
 .pickleImageI{
   width: 100%;
+  font-size: 30%;
 }
 .cameraIcon{
   font-size: 30%;
@@ -96,6 +98,7 @@ table{
   scroll-snap-align: start;
   scroll-snap-stop: always;
   background-color: #ebebff;
+  width: 100%;
 }
 h1{
   text-align: center;
@@ -291,17 +294,15 @@ margin: 5%;
   top: 4%;
   left: 40%;
   right: 40%;
+  width: auto;
 }
 .doneMess{
-  left: 40%;
-  right: 40%;
   color: #555;
   font-size: 200%;
   text-align: center;
+  padding: 40%;
 }
 .section1{
-  left: 40%;
-  right: 40%;
   height: 100vh;
   scroll-snap-align: start;
   scroll-snap-stop: always;
