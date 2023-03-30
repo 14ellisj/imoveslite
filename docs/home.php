@@ -26,7 +26,7 @@ if (!isset($_SESSION['loggedin'])) {
 
         <div class="headBar">
             <div class="cameraIndex"><a href="camera1.html"><i class="fa fa-camera" alt="Camera Icon" class="cameraIcon" style="color: #a4a7ff"></i></a></div>
-            <div class="logoIndex"><img src="images/logo4a4.png" alt="Logo Image" class="logo"></a></div>
+            <div class="logoIndex"><a href="profiles.php"><img src="images/logo4a4.png" alt="Logo Image" class="logo"></a></div>
             <div class="pickleIndex"><a href="avatarCustomise.html"><i class="fas fa-user-circle"  style="color:#a5a8ff"alt="Pickle Image" class="pickleImageI"></i></a></div>
         </div>
 
