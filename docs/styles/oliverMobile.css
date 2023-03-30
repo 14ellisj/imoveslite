@@ -113,6 +113,7 @@ footer{
   margin-right: auto;
   width: 100%;
   max-width: 200px;
+  padding: 5%;
 }
 .responsive {
 display: block;
@@ -239,8 +240,8 @@ border-radius: 30px;
 
 .welMess{
   position: absolute;
-  top: 4%;
+  top: 60%;
   left: 40%;
-  right: 40%;
   width: auto;
+  padding: 5%;
 }

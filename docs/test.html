@@ -1,115 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width"/>
-    <title>Pick-l: Home</title>
-    <link rel="stylesheet" href="styles/mobile.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Pick-l: Profiles</title>
+    <link rel="stylesheet" href="styles/oliverMobile.css" />
     <link rel="icon" type="image/x-icon" href="images/pickle.ico">
 </head>
-<body class="indexBody">
-    <div class="container">
-        <div class="section"><video width="100%" controls poster="images/Poster1.PNG">
-            <source src="videos/FBB-2.mp4" type="video/mp4" class="videos"> 
-            Your browser does not support the video tag.
-            </video>
-        </div>
-
-        <div class="headBar">
-            <div class="cameraIndex"><a href="camera1.html"><i class="fa fa-camera" alt="Camera Icon" class="cameraIcon" style="color: #a4a7ff"></i></a></div>
-            <div class="logoIndex"><img src="images/logo4a4.png" alt="Logo Image" class="logo"></a></div>
-            <div class="pickleIndex"><a href="avatarCustomise.html"><i class="fas fa-user-circle"  style="color:#a5a8ff"alt="Pickle Image" class="pickleImageI"></i></a></div>
+<header>
+ 
+    <table style>
+        <tr>
+            <div><img src="images/logo4a4.png" alt="Profilelogo" class="center" width = "200" style="border-radius: 12%;"></div>
             <div class="welMess"><p>Hello, <?=$_SESSION['name']?>!</p></div>
-        </div>
-
-        <div class="section"><video width="100%" controls poster="images/Poster2.PNG">
-            <source src="videos/Active.mp4" type="video/mp4" class="videos"> 
-            Your browser does not support the video tag.
-            </video>
-        </div>
+        </tr>
+        <br>
         
-         <div class="section"><video width="100%" controls poster="images/Poster3.PNG">
-            <source src="videos/Brain 4-7.mp4" type="video/mp4" class="videos"> 
-            Your browser does not support the video tag.
-            </video>
-        </div>
-                     
-        <div class="section"><video width="100%" controls poster="images/Poster4.PNG">
-            <source src="videos/Brain 7-11.mp4" type="video/mp4" class="videos"> 
-            Your browser does not support the video tag.
-            </video>
-        </div>
-                  
-        <div class="section"><video width="100%" controls poster="images/Poster5.PNG">
-            <source src="videos/Breathing.mp4" type="video/mp4" class="videos"> 
-            Your browser does not support the video tag.
-            </video>
-        </div>
-                        
-        <div class="section"><video width="100%" controls poster="images/Poster6.PNG">
-            <source src="videos/AB-1.mp4" type="video/mp4" class="videos"> 
-            Your browser does not support the video tag.
-            </video>
-        </div>
-    
-        <div class="section"><video width="100%" controls poster="images/Poster7.PNG">
-            <source src="videos/AB-2.mp4" type="video/mp4" class="videos"> 
-            Your browser does not support the video tag.
-            </video>
-        </div>
-                               
-        <div class="section"><video width="100%" controls poster="images/Poster8.PNG">
-            <source src="videos/FBB-1.mp4" type="video/mp4" class="videos"> 
-            Your browser does not support the video tag.
-            </video>
-        </div>
+    </table>
+</header>
 
-        <div class="section"><video width="100%" controls poster="images/Poster9.PNG">
-            <source src="videos/Yoga.mp4" type="video/mp4" class="videos"> 
-            Your browser does not support the video tag.
-            </video>
-        </div>
-                        
-        <div class="section"><video width="100%" controls poster="images/Poster10.PNG">
-            <source src="videos/FBB-3.mp4" type="video/mp4" class="videos"> 
-            Your browser does not support the video tag.
-            </video>
-        </div>
-                                
-        <div class="section"><video width="100%" controls poster="images/Poster11.PNG">
-            <source src="videos/Jump.mp4" type="video/mp4" class="videos"> 
-            Your browser does not support the video tag.
-            </video>
-        </div>                  
-    
-        <div class="section"><video width="100%" controls poster="images/Poster1.PNG">
-            <source src="videos/Pilates.mp4" type="video/mp4" class="videos"> 
-            Your browser does not support the video tag.
-            </video>
-        </div>
-    
-        <div class="section"><video width="100%" controls poster="images/Poster2.PNG">
-            <source src="videos/YBB-1.mp4" type="video/mp4" class="videos"> 
-            Your browser does not support the video tag.
-            </video>
-        </div>
-                                  
-        <div class="section"><video width="100%" controls poster="images/Poster3.PNG">
-            <source src="videos/YBB-2.mp4" type="video/mp4" class="videos"> 
-            Your browser does not support the video tag.
-            </video>
-        </div>
+<body>
+    <form>
+    <table>
+    <tr>
+    <td><button type="submit" formaction="home.php" class="left button1"> <img src = "images/barry.png" width = "100" height="100"> </button></td>
+    <td><button type="submit" formaction="home.php" class="right button1"> <img src = "images/barry bee orng.png" width = "100" height="100"> </button></td>
+    </tr>
+    <tr> 
 
-        <div class="section1">
-            <div class="doneMess">
-                <p>Great job!</p>
-                <p>Come back later for more!</p>
-                <p><div class="logoutButton"><a href="logout.php" style="color:#a5a8ff"><i class="fas fa-sign-out-alt" style="color:#a5a8ff"></i>Logout</a></div></p>
-            </div>
-        </div>
+    </tr>
 
-    </div>
+    <tr>
+        <td><button type="submit" formaction="home.php" class="left button1" > <img src = "images/PinkP.png" width = "100" height="100"> </button></td>
+        <td><button type="submit" formaction="home.php" class="right button1"> <img src = "images/YellowP.png" width = "100" height="100"> </button></td>
+    </tr>
+
+    <tr>
+        <td><button type="submit" formaction="profile.php" class="left button1"> <img src = "images/settings.png" width = "100" height="100"> </button></td>
+
+    </tr>
+
+    
+</form>
+</table>
 </body>
-</html> 
+</html>
