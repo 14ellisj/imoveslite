@@ -19,6 +19,7 @@ if (!isset($_SESSION['loggedin'])) {
     <table style>
         <tr>
             <img src="images/logo4a4.png" alt="Profilelogo" class="center" width = "200" style="border-radius: 12%;">
+            <div class="welMess"><p>Hello, <?=$_SESSION['name']?>!</p></div>
         </tr>
         <br>
         

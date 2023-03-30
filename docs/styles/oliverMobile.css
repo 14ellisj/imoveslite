@@ -236,3 +236,11 @@ border-radius: 30px;
 }
 
 .button1 {border-radius: 12px;}
+
+.welMess{
+  position: absolute;
+  top: 4%;
+  left: 40%;
+  right: 40%;
+  width: auto;
+}
