@@ -46,11 +46,11 @@ if ($mysqli->query($sql) === TRUE) {
   } else {
 	echo "Error creating user 6: " . $mysqli->error;
 } */
-$sql = "INSERT INTO `accounts` (`id`, `username`, `password`, `email`) VALUES 
+/* $sql = "INSERT INTO `accounts` (`id`, `username`, `password`, `email`) VALUES 
 (7, 'Examiner', 'hallam1843', 'examiner@pickl.com');";
 if ($mysqli->query($sql) === TRUE) {
 	echo "user 7 created successfully";
   } else {
 	echo "Error creating user 6: " . $mysqli->error;
-} 
+}  */
 ?>
