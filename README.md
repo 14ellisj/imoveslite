@@ -1,6 +1,8 @@
 # imoveslite
-Please open imoveslite folder in visual studio code
-Find in /images folder 'QR.png'
+Go to link https://github.com/14ellisj/imoveslite.git
+Download as .zip
+Open imoveslite folder in visual studio code
+Find in /docs/images folder 'QR.png'
 Scan QR code to open website 
 
 Login information: 
